@@ -1,0 +1,29 @@
+<view class="profile">
+  <view class="Avatar">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <open-data type="userNickName" class="nickName"></open-data>
+</view>
+<view class="nav">
+  <view class="nav-item">
+    <navigator class="content" url="/pages/playhistory/playhistory" hover-class="none">
+      <i class="iconfont icon-ziyuanldpi icon"></i>
+      <text class="text">最近播放</text>
+      <i class="iconfont icon-xiangyou icon"></i>
+    </navigator>
+  </view>
+  <view class="nav-item">
+    <navigator class="content" url="/pages/bloghistory/bloghistory" hover-class="none">
+      <i class="iconfont icon-shoucang icon"></i>
+      <text class="text">我的发布</text>
+      <i class="iconfont icon-xiangyou icon"></i>
+    </navigator>
+  </view>
+  <view class="nav-item">
+    <view class="content" hover-class="none" bindtap="getQrCode">
+      <i class="iconfont icon-houtaishezhi icon"></i>
+      <text class="text">生成小程序码</text>
+      <i class="iconfont icon-xiangyou icon"></i>
+    </view>
+  </view>
+</view>

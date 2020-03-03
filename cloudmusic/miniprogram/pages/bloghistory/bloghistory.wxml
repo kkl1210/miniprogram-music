@@ -1,0 +1,8 @@
+  <view class="blog-list">
+    <view class="blog-pannel">
+      <block wx:for="{{history}}" wx:key="_id">
+        <k-blog-card blog="{{item}}" bind:tap="onComment" data-blogid="{{item._id}}"/>
+        <k-comment-ctrl blogid="{{item._id}}" blog="{{item}}"/>
+      </block>
+    </view>
+  </view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "k-blog-card": "/components/blog-card/blog-card",
+    "k-comment-ctrl": "/components/comment-ctrl/comment-ctrl"
+  }
+}

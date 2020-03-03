@@ -1,0 +1,7 @@
+.loginbtn{
+  background-color: #d43c33;
+  font-size: 32rpx;
+  color: #fff;
+  margin: 110rpx;
+  height: 80rpx;
+}

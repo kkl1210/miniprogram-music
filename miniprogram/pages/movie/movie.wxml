@@ -1,0 +1,11 @@
+<view class="movie" wx:for="{{movieList}}" wx:key="{{index}}">
+  <image class="movie-img" src="{{item.images.small}}"></image>
+  <view class="movie-info">
+    <view class="movie-title">{{item.title}}</view>
+    <view class="movie-rating">观众评分：
+      <text class="movie-score">{{item.rating.average}}</text> 分
+    </view>
+    <view>年份： {{item.year}}</view>
+    <button class="movie-comment" bindtap="gotoComment" data-movieid="{{item.id}}">评价</button>
+  </view>
+</view>

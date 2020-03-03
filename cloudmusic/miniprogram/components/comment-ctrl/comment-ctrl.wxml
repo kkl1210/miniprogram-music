@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="ctrl-item" bindtap="onComment">
+    <i class="iconfont icon-pinglun icon"></i>
+    <text class="btn-text">评论 {{commentNum}}</text>
+  </view>
+  <view class="ctrl-item">
+    <button class="share-btn" open-type="share" hover-class="share-hover" data-blog="{{blog}}" data-blogid="{{blogid}}">
+      <i class="iconfont icon-fenxiang icon"></i>
+      <text class="btn-text">分享</text>
+    </button>
+  </view>
+</view>
+
+<k-login modalShow="{{loginmodalShow}}" bindloginSuccess="onLoginSuccess" bindloginFail="onLoginFail" />
+<k-bottom-modal modalShow="{{commentModalShow}}">
+  <view>
+    <textarea class="comment-content" fixed="true" placeholder="写评论" value="" bindinput="onInput"></textarea>
+    <button class="sendbtn" bindtap="send">发表</button>
+  </view>
+
+</k-bottom-modal>

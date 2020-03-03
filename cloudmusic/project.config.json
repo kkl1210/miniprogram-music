@@ -1,0 +1,77 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"enhance": true
+	},
+	"appid": "wxc3a9e1e59be4a27f",
+	"projectname": "cloud-music",
+	"libVersion": "2.10.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "musiclist",
+					"pathName": "pages/musiclist/musiclist",
+					"query": "playlistId: \"3030159862\"",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/blog/blog",
+					"pathName": "pages/blog/blog",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/publish/publish",
+					"pathName": "pages/publish/publish",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/profile/profile",
+					"pathName": "pages/profile/profile",
+					"scene": null
+				}
+			]
+		}
+	}
+}

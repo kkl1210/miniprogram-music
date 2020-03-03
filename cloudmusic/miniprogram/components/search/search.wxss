@@ -1,0 +1,26 @@
+/* components/search/search.wxss */
+.search-container{
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 20rpx;
+}
+.search-input{
+  flex:1;
+  height: 68rpx;
+  font-size: 28rpx;
+  border-radius: 50px;
+  background-color: #f5f5f5;
+  padding-left: 60rpx;
+}
+.searchbtn{
+  background: #d43c33;
+  color: #fff;
+  margin-left: 8rpx;
+  font-size: 24rpx;
+}
+.sousuo{
+  position: absolute;
+  left:16rpx;
+  font-size:48rpx;
+}

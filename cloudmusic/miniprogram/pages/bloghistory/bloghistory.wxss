@@ -1,0 +1,7 @@
+.blog-list {
+  margin-top: -16rpx;
+}
+.blog-pannel {
+  margin-bottom: 20rpx;
+  box-sizing: border-box;
+}

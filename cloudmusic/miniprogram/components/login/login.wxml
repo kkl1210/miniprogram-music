@@ -1,0 +1,5 @@
+<k-bottom-modal modalShow="{{modalShow}}">
+  <view>
+    <button class="loginbtn" open-type="getUserInfo" bindgetuserinfo="getUserInfo">获取微信用户授权信息</button>
+  </view>
+</k-bottom-modal>

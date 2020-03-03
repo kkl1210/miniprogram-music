@@ -1,0 +1,5 @@
+<view class="search-container">
+  <i class="iconfont icon-sousuo sousuo"></i>
+  <input class="search-input" bindinput="onInput" value="{{text}}"></input>
+  <button class="searchbtn" bindtap="onSearch">搜索</button>
+</view>
